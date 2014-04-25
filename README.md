@@ -5,7 +5,7 @@
 [https://github.com/tonymillion/Reachability](https://github.com/tonymillion/Reachability)
 
       //Initialize
-      [CPIWebSocketController sharedController];
+      [TLIReachabilityController sharedController];
 
       //NSNotification example
       [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityDidChange:) name:kReachabilityChangedNotification object:nil];
